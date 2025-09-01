@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supreme Accounting</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f7fb;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 10px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      height: 200pxpx;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #004c99, #0099cc);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero img {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    .btn {
+      display: inline-block;
+      background: #ffcc00;
+      color: #003366;
+      padding: 12px 20px;
+      margin-top: 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #ffdb4d;
+    }
+
+    section {
+      padding: 60px 10%;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #003366;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #004c99;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="https://i.postimg.cc/zGNQ5dW0/office-logo.jpg" alt="Supreme Accounting Logo" width="200">
+    <nav>
+      <a href="#">હોમ</a>
+      <a href="#services">સેવાઓ</a>
+      <a href="#about">અમારા વિશે</a>
+      <a href="#gallery">ફોટા</a>
+      <a href="#contact">સંપર્ક</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="logo.png" alt="Supreme Accounting Logo">
+    <h2>તમારા બિઝનેસ માટે વિશ્વસનીય એકાઉન્ટિંગ પાર્ટનર</h2>
+    <p>Supreme Accounting તમને ટેક્સ ફાઇલિંગ, બિઝનેસ પ્લાનિંગ અને કંપની અકાઉન્ટિંગ માટે શ્રેષ્ઠ સોલ્યુશન આપે છે.</p>
+    <a href="#contact" class="btn">અમારો સંપર્ક કરો</a>
+  </div>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>અમારી સેવાઓ</h2>
+    <div class="services">
+      <div class="card"><h3>ઇન્કમટેક્ષ રિટર્ન ફાઈલ</h3></div>
+      <div class="card"><h3>GST રિટર્ન</h3></div>
+      <div class="card"><h3>એકાઉન્ટ</h3></div>
+      <div class="card"><h3>ટ્રેડમાર્ક એપ્લિકેશન</h3></div>
+      <div class="card"><h3>પાર્ટનરશીપ ડીડ રજીસ્ટ્રેશન</h3></div>
+      <div class="card"><h3>આધાર ઉદ્યોગ રજીસ્ટ્રેશન</h3></div>
+      <div class="card"><h3>શેર માર્કેટ એકાઉન્ટ</h3></div>
+      <div class="card"><h3>પ્રોપાઇટશીપ</h3></div>
+      <div class="card"><h3>પ્રાઇવેટ લિમિટેડ કંપની</h3></div>
+      <div class="card"><h3>લિમિટેડ લાઈબિલીટી પાર્ટનર</h3></div>
+      <div class="card"><h3>વન પર્સન કંપની</h3></div>
+      <div class="card"><h3>GST રજીસ્ટ્રેશન</h3></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>અમારા વિશે</h2>
+    <p>Supreme Accounting એ અનુભવી એકાઉન્ટિંગ અને ફાઇનાન્સ કન્સલ્ટિંગ ફર્મ છે.  
+       છેલ્લા ઘણા વર્ષોથી અમે બિઝનેસ અને વ્યક્તિગત ગ્રાહકોને સેવા આપી રહ્યા છીએ.  
+       અમારું ધ્યેય છે – **ચોક્કસ, ઝડપી અને વિશ્વસનીય સેવા** પ્રદાન કરવી.</p>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section id="gallery">
+    <h2>ફોટા</h2>
+    <div class="gallery">
+      <img src="office1.jpg" alt="Office Photo 1">
+      <img src="office2.jpg" alt="Office Photo 2">
+      <img src="team.jpg" alt="Team Photo">
+      <img src="clients.jpg" alt="Clients Photo">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>સંપર્ક કરો</h2>
+    <p>📍 એડ્રેસ: 2nd floor, S-32-B RAMA BUSINESS HUB, Deesa-Palanpur Highway, Deesa, Gujarat 385535  
+       <br>📞 ફોન: +91 97267 46764  
+       <br>📧 ઈમેલ: info@supremeaccounting.com</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Supreme Accounting | સર્વ હક્ક સુરક્ષિત.</p>
+  </footer>
+
+</body>
+</html>
